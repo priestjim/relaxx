@@ -7,6 +7,7 @@ This file is used to list changes made in each version of RelaXX
 * Original home: http://relaxx.dirk-hoeschen.de
 
 Copyright (C) 2010 Dirk Hoeschen
+
 Further modifications by Panagiotis Papadomitsos <pj@ezgr.net>
 
 ## v0.5a - Released 21/02/2008

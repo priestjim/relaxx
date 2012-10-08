@@ -5,10 +5,11 @@ RelaXXPlayer - the easy listening MPD - Web Client
 * [Original home](http://relaxx.dirk-hoeschen.de)
 
 Copyright (C) 2010 Dirk Hoeschen
+
 Further modifications by Panagiotis Papadomitsos <pj@ezgr.net>
 
-About MPD and RelaXXP
-=====================
+About MPD and RelaXXPlayer
+==========================
 
 Music Player Daemon is a soundserver (MP3,OGG WAV) for Linux. MPD is fast and easy to configure. The daemon is controlled by a set of commands over TCPIP. So MPD can even stream sound over the Internet. Meanwhile there are dozens of Clients for MPD. Some are plugins, some are graphical clients, some are web-based. Because I found, that non of
 the web-based clients are useful, I decided to make my own player. The first result is RelaXXPlayer.
@@ -108,7 +109,7 @@ Credits
 
 Thanks to the following people.
 
-Eric van der Sanden : Dutch language file
-Matthieu Simon: French language file
-Roman Verbitskiy: Russian language file
-Edward Who: Chinese language filename
+* Eric van der Sanden : Dutch language file
+* Matthieu Simon: French language file
+* Roman Verbitskiy: Russian language file
+* Edward Who: Chinese language filename
