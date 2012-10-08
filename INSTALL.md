@@ -1,20 +1,17 @@
-/* --------------------------------------------------------------------
 RelaXXPlayer - the easy listening MPD - Web Client
+==================================================
 
-Version: 0.70 Aug -2010
+* Home: https://github.com/priestjim/relaxx
+* Original home: http://relaxx.dirk-hoeschen.de
 
-home: http://relaxx.dirk-hoeschen.de
-updates: http://sourceforge.net/projects/relaxx
+Copyright (C) 2010 Dirk Hoeschen
+Further modifications by Panagiotis Papadomitsos <pj@ezgr.net>
 
-Copyright (C) 2008  Dirk Hoeschen
---------------------------------------------------------------------*/
+Installing RelaXXPplayer
+========================
 
-//==========================//
-// Installing RelaXXPplayer //
-//==========================//
+## 1. Required tools and programs
 
-1: Required tools and programs
-==============================
 A: Linux or BSD-Server
 B: A Web server (I recommend lighttpd)
 C: PHP (I recommend php5-cgi)

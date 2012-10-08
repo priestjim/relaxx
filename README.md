@@ -1,9 +1,11 @@
-/* --------------------------------------------------------------------
 RelaXXPlayer - the easy listening MPD - Web Client
+==================================================
 
-Version: 0.70 Aug - 2010
+* Home: https://github.com/priestjim/relaxx
+* Original home: http://relaxx.dirk-hoeschen.de
 
-Copyright (C) 2009  Dirk Hoeschen
+Copyright (C) 2010 Dirk Hoeschen
+Further modifications by Panagiotis Papadomitsos <pj@ezgr.net>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -16,8 +18,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with this program.  If not, see <"http://www.gnu.org/licenses/">.
---------------------------------------------------------------------*/
+along with this program.  If not, see http://www.gnu.org/licenses
 
 //=========================//
 // About MPD and RelaXXP   //
