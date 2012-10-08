@@ -1,0 +1,155 @@
+/**************************************************************
+	Relax Player Table-Definitions
+**************************************************************/
+
+table.dataTable  {
+    margin:0pt;
+    padding:0pt;
+    border: solid #222;
+    border-width: 0 1px 1px 0;
+    border-spacing: 0pt;
+    width: 100%;
+}
+
+table.dataTable>tbody	{  /* child selector syntax which IE6 and older do not support*/
+	overflow: auto; 
+	height: 100%;
+	overflow-x: hidden;
+	}
+	
+table.dataTable thead tr	{
+	position:relative; 
+	top: expression(offsetParent.scrollTop); /*IE5+ only*/
+	}	
+
+table.dataTable th {
+	background: #222 url(../images/table-sort.gif) no-repeat;
+	color: #fff;
+	font-weight: bold;    
+	padding: 2px 2px 2px 14px;
+	border: solid #666;
+    border-width: 0 1px 0 0;
+	cursor: pointer;    
+}
+
+table.dataTable th.asc {
+	background: #333 url(../images/table-sort-asc.gif) no-repeat;
+}
+
+table.dataTable th.desc {
+	background: #333 url(../images/table-sort-desc.gif) no-repeat;
+}
+
+
+table.dataTable td {
+	padding: 1px 1px 1px 0.5em;
+	margin: 0;
+	text-align: left;    
+    border: solid #ddd;
+    border-width: 0 1px 1px 0;
+}
+
+tr {
+	padding: 0;
+	margin: 0;
+}
+	
+table.dataTable tr.odd {
+	background-color: #f0f0f0;
+}
+
+table.dataTable tr.even {
+	background-color: #f8f8f8;
+}
+
+table.dataTable tr.target { 
+	background-color: #5c5c5c;
+}	
+                                          
+/* hovered items */
+table.dataTable tr.playing { 
+	background-color: #fffba8;
+}
+
+table.dataTable td.playing { 
+    background-image:url(../images/playback.gif);
+    background-repeat: no-repeat;
+    background-position: left center;    	
+}
+
+table.dataTable tr.odd.marked {
+	background-color: #0b2555;
+	color: #fff;
+}
+
+table.dataTable tr.even.marked {
+	background-color: #0c285c;
+	color: #fff;
+}
+
+
+/* hovered items */
+table.dataTable tr.odd:hover,
+table.dataTable tr.even:hover,
+table.dataTable tr.hover { 
+	background-color: #b8bfcc;
+	color: #000;
+	cursor: pointer;
+}
+
+table.dataTable tr.over {
+	background-color: #354158;
+	color: #000;
+	cursor: pointer;
+}
+
+div.tableContainer {
+	width: 100%;
+	height: auto;
+	margin:0pt;
+	overflow:auto;
+	position:relative;
+	padding: 0pt;
+	cursor: default;
+	}
+
+/*prevent Mozilla scrollbar from hiding cell content*/
+div.tableContainer td:last-child {
+    padding-right:20px;    
+}
+
+/* normal tables for inputs etc */
+table.normTable {
+	border-spacing:2px;
+	margin: 0;
+	padding: 0;		
+	width: 100%;
+	height: auto;
+}
+
+table.normTable td {
+	padding: 0;		
+	margin: 0;
+	border: 0;
+	text-align: left;    
+}
+* html table.normTable td {
+	padding: 1px 1px 2px 2px ;	
+}
+
+
+table.normTable th {
+	padding: 0;		
+	margin: 0;
+	border: 0;
+	text-align: right;
+	vertical-align: top;
+	font-weight:normal;
+}
+
+table.normTable tr {
+    max-heigth: auto;
+    heigth: auto;		
+}
+
+

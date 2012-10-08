@@ -1,0 +1,46 @@
+.mootabs_title {
+	list-style-image: none;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.mootabs_title li {
+	float: left;
+	background-color: #222;	
+    background-image:  url(../images/bg-tab.gif);
+	background-repeat:repeat-x;	
+	padding: 3px 4px 3px 4px;
+	margin: 1px 1px 0px 2px;
+    border-top: 1px solid  #666;
+    border-right: 1px solid  black;
+    cursor: pointer;
+    color: #fff;
+}
+
+.mootabs_title li.active {
+	background-color: #444;
+    background-image:  url(../images/bg-tabactive.gif);
+	background-repeat:repeat-x;	
+	margin: 0px 2px 1px 1px;
+	border-bottom: 1px solid  #444;
+}
+
+div.mootabs_panel {
+	display: none;
+    background-color: #f0f0f0;
+	border-top: 1px solid #aaa;
+	padding: 5px 5px 5px 8px;
+	margin:0;	
+	width: 'inherit';
+	top: -2px;
+	clear: both;
+	overflow: auto;	
+	cursor:default;
+}
+
+div.mootabs_panel.active {
+	display: block;
+	z-index: 200;
+}
+

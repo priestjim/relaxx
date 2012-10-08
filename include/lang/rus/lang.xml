@@ -1,0 +1,92 @@
+<language>
+<!-- russian language-file by Roman Verbitskiy -->
+<!-- verbix [at] gmail.com -->
+<play>[2] Воспроизвести</play>
+<stop>Стоп</stop>
+<next>[3] следующий</next>
+<previous>[1] предыдущий</previous>
+<pause>[2] пауза</pause>
+<repeat>повтор</repeat>
+<shuffle>случайно</shuffle>
+<close>закрыть</close>
+<cancel>отменить</cancel>
+<save>сохранить</save>
+<add>добавить</add>
+<remove>изъять</remove>
+<load>загрузить</load>
+<login>Войти</login>
+<logout>Выйти</logout>
+<pos>Поз.</pos>
+<volume>[Q-] Громкость [W+]</volume>
+<xfade>xfade</xfade>
+<output>Выход</output>
+<playlist>Плейлист</playlist>
+<file>Имя файла</file>
+<title>Название</title>
+<genre>Жанр</genre>
+<artist>Артист</artist>
+<album>Альбом</album>
+<disc>Диск</disc>
+<time>Время</time>
+<date>Дата</date>
+<comment>Коментарий</comment>
+<any>Везде</any>
+<remaining>Осталось</remaining>
+<loading>Загружется....</loading>
+<pl_save>Схранить плейлист</pl_save>
+<pl_append>Добавить к пл..</pl_append>
+<pl_replace>Заменить пл.</pl_replace>
+<pl_delete>Удалить</pl_delete>
+<pl_rename>Переименовать</pl_rename>
+<now_playing>сейчас играет</now_playing>
+<tab_folder>Папки</tab_folder>
+<tab_files>Все файлы</tab_files>
+<tab_search>Поиск</tab_search>
+<tab_playlists>Плейлисты</tab_playlists>
+<tab_tracks>Трэки</tab_tracks>
+<menu_play_current>Воспроизвести трэк [P]</menu_play_current>
+<menu_up>Вверх... [up]</menu_up>
+<menu_down>Вниз... [down]</menu_down>
+<menu_rem_selected>Изъять выделенные... [DEL]</menu_rem_selected>
+<menu_clear_old>Изъять старые... [O]</menu_clear_old>
+<menu_clear>Очистить плейлист... [C]</menu_clear>
+<menu_select>Выделить всё... [S]</menu_select>
+<menu_deselect>Снять выделение... [D]</menu_deselect>
+<menu_append>Добавить выделенное... [SPC]</menu_append>
+<menu_radio>Добавить радио поток... [R]</menu_radio>
+<menu_savepl>Сохранить плейлист... [N]</menu_savepl>
+<menu_fileinfo>Показать инфо файла... [I]</menu_fileinfo>
+<error>Ошибка</error>
+<error_notracks>Нет доступныз трэков в плэйлисте!</error_notracks>
+<error_nofiles>Треков не найдено!</error_nofiles>
+<error_connect>Не могу установить связь с mpd-deamon.\n Пожалуйста, проверьте HOST,PORT и PASSWORD в конфигурации, затем нажмите F5.</error_connect>
+<error_allowed>У вас недостаточно прав для этого.\nПожалуйста, сначала войдите.</error_allowed>
+<error_mpd>Команда не выполнена!\n Причина: relaXX не может сделать этого.\nПожалуйста проверьте пароль и права.</error_mpd>
+<error_login>Команда не выполнена!\n Причина: пожалуйста, сначала войдите.</error_login>
+<error_password>Вход не удачный!\n Причина: имя или пароль неверны.</error_password>
+<success_login>Вход выполнен</success_login>
+<success_logout>Выход выполнен</success_logout>
+<search_for>Искать</search_for>
+<search_in>Искать в</search_in>
+<name>Название</name>
+<username>Имя пользователя</username>
+<administrator>Администратор</administrator>
+<password>Пароль</password>
+<config>Конфиг</config>
+<dialog_info>Статистика MPD</dialog_info>
+<dialog_radio>Добавить радио поток</dialog_radio>
+<stat_current>Текущее аудио устройство</stat_current>
+<stat_db>База данных</stat_db>
+<stat_audio>Аудио</stat_audio>
+<stat_bit>Скорость</stat_bit>
+<stat_songs>Песни</stat_songs>
+<stat_artists>Артисты</stat_artists>
+<stat_albums>Альбомы</stat_albums>
+<stat_playtime>Время</stat_playtime>
+<adm_updatedb>Обновить базу</adm_updatedb>
+<adm_template>Шкурка</adm_template>
+<adm_language>Язык</adm_language>
+<adm_rights>Права по умолчанию</adm_rights>
+<adm_settings>Установки</adm_settings>
+<url>URL</url>
+</language>

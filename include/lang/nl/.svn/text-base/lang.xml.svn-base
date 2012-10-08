@@ -1,0 +1,92 @@
+<?xml version='1.0' standalone='yes'?>
+<!-- dutch language file by Eric van der Sanden -->
+<!-- evdsande [at] neware.nl -->
+<language>
+<play>[2] Afspelen</play>
+<stop>Stop</stop>
+<next>[3] Volgende</next>
+<previous>[1] Vorige</previous>
+<pause>[2] Pauze</pause>
+<repeat>Herhalen</repeat>
+<shuffle>Shuffle</shuffle>
+<close>Sluiten</close>
+<cancel>Afbreken</cancel>
+<save>Opslaan</save>
+<add>Toevoegen</add>
+<remove>Verwijderen</remove>
+<load>Laden</load>
+<login>Aanmelden</login>
+<logout>Afmelden</logout>
+<pos>Pos.</pos>
+<volume>[Q-] Volume [W+]</volume>
+<xfade>xfade</xfade>
+<output>Output</output>
+<playlist>Afspeellijst</playlist>
+<file>Bestand</file>
+<title>Titel</title>
+<genre>Genre</genre>
+<artist>Artiest</artist>
+<album>Album</album>
+<disc>Disc</disc>
+<time>Tijd</time>
+<date>Datum</date>
+<comment>Commentaar</comment>
+<any>Elke</any>
+<remaining>Resterend</remaining>
+<loading>Laden....</loading>
+<pl_save>Opslaan</pl_save>
+<pl_append>Toevoegen</pl_append>
+<pl_replace>Vervangen</pl_replace>
+<pl_delete>Verwijderen</pl_delete>
+<pl_rename>Hernoemen</pl_rename>
+<now_playing>Speelt nu af</now_playing>
+<tab_folder>Folders</tab_folder><tab_files>All Files</tab_files>
+<tab_search>Zoeken</tab_search>
+<tab_playlists>Afspeellijst</tab_playlists>
+<tab_tracks>Nummers</tab_tracks>
+<menu_play_current>Afspelen nummer [P]</menu_play_current>
+<menu_up>Omhoog verplaatsen... [HOOG]</menu_up>
+<menu_down>Omlaag verplaatsen... [LAAG]</menu_down>
+<menu_rem_selected>Geselecteerde verwijderen... [DEL]</menu_rem_selected>
+<menu_clear_old>Verwijder oude... [O]</menu_clear_old>
+<menu_clear>Afspeellijst leeg maken... [C]</menu_clear>
+<menu_select>Selecteer alle... [S]</menu_select>
+<menu_deselect>Deselecteer alle... [D]</menu_deselect>
+<menu_append>Geselecteerde toevoegen... [SPC]</menu_append>
+<menu_radio>Radio Stream toevoegen... [R]</menu_radio>
+<menu_savepl>Afspeellijst opslaan... [N]</menu_savepl>
+<menu_fileinfo>Bestandsinformatie tonen... [I]</menu_fileinfo>
+<error>Fout</error>
+<error_notracks>Geen actief nummer in de afspeellijst!</error_notracks>
+<error_nofiles>Geen nummers gevonden!</error_nofiles>
+<error_connect>Kan geen verbinding krijgen met de mpd-deamon.\n Controleer HOST,PORT en PASSWORD in de configuratie en druk op F5 a.u.b.</error_connect>
+<error_allowed>Opdracht afgebroken!\n Reden: Het is anonieme gebruikers niet toegestaan deze handeling te verrichten.\nEerst aanmelden a.u.b.</error_allowed>
+<error_mpd>Opdracht afgebroken!\n Reden: Het is relaXX niet toegestaan deze handeling te verrichten.\nControleer het MPD wachtwoord (PASSWORD) en de bestandsrechten van MPD a.u.b.</error_mpd>
+<error_login>Opdracht afgebroken!\n Reden: Eerst Aanmelden a.u.b.</error_login>
+<error_password>Aanmelden afgebroken!\n Reden: Wachtwoord of gebruikersnaam niet correct.</error_password>
+<success_login>Aanmelden succesvol</success_login>
+<success_logout>Afmelden succesvol</success_logout>
+<search_for>Zoeken naar</search_for>
+<search_in>Zoeken in</search_in>
+<name>Naam</name>
+<username>Gebruikersnaam</username>
+<administrator>Beheerder</administrator>
+<password>Wachtwoord</password>
+<config>Configuratie</config>
+<dialog_info>Nummer informatie en MPD-Statistieken</dialog_info>
+<dialog_radio>Toevoegen radio stream (URL)</dialog_radio>
+<stat_current>Huidig nummer</stat_current>
+<stat_db>Database</stat_db>
+<stat_audio>Audio</stat_audio>
+<stat_bit>Bitrate</stat_bit>
+<stat_songs>Nummers</stat_songs>
+<stat_artists>Artiesten</stat_artists>
+<stat_albums>Albums</stat_albums>
+<stat_playtime>Tijd overall</stat_playtime>
+<adm_updatedb>Verversen db</adm_updatedb>
+<adm_template>Uiterlijk</adm_template>
+<adm_language>Taal</adm_language>
+<adm_rights>Anonieme rechten</adm_rights>
+<adm_settings>Instellingen</adm_settings>
+<url>URL</url>
+</language>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<audioplayer>
+	<menu>In Browser abspielen... [B]</menu>
+	<error_open>Kann Datei nicht lesen. Kein Zugriff auf die Musiksammlung?</error_open>
+	<error_noflash>Flash 8 oder höher benötigt.</error_noflash>
+	<error_nofile>Kein Song ausgewählt.</error_nofile>
+	<download>Download der Musikdatei.</download>
+</audioplayer>	

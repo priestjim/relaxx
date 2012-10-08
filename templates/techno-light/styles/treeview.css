@@ -1,0 +1,53 @@
+/*CSS for Simple Tree Menu*/
+
+/* tree */
+.treelist { 
+   margin: 0px;
+   padding: 0px;
+   display:block;
+}
+
+.treelist ul { 
+   margin: 0px;
+   padding: 0px 0px 0px 15px;
+   display:block;
+}
+
+.treelist ul.closed{  
+   display: none; 
+}
+
+.treelist li{ 
+   background: url(../images/dirc.gif) no-repeat left 0px;
+   text-indent: 31px;
+   line-height: 16px;
+   min-height: 16px;
+   padding: 0px;
+   margin: 0px;
+   margin-bottom: 2px;
+   list-style:none;
+   list-style-type:none; 
+   list-style-position: outside;
+   cursor: hand !important;
+   cursor: pointer !important;
+   white-space: ignore;
+}
+
+.treelist ul li.open{ 
+   background: url(../images/diro.gif) no-repeat left 0px;
+}
+
+.treelist ul li.empty{ 
+   background: url(../images/dire.gif) no-repeat left 0px;
+}
+
+.treelist ul li.selected{ 
+   color: #222;
+   font-weight: bolder;
+}
+
+#treeroot { 
+   background: url(../images/dirhome.gif) no-repeat left 0px;
+   text-indent: 20px;
+}
+

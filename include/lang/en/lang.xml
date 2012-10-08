@@ -1,0 +1,90 @@
+<?xml version='1.0' standalone='yes'?>
+<language>
+<play>[2] play</play>
+<stop>stop</stop>
+<next>[3] next</next>
+<previous>[1] previous</previous>
+<pause>[2] pause</pause>
+<repeat>repeat</repeat>
+<shuffle>shuffle</shuffle>
+<close>close</close>
+<cancel>cancel</cancel>
+<save>save</save>
+<add>add</add>
+<remove>remove</remove>
+<load>load</load>
+<login>Login</login>
+<logout>Logout</logout>
+<pos>Pos.</pos>
+<volume>[Q-] Volume [W+]</volume>
+<xfade>xfade</xfade>
+<output>Output</output>
+<playlist>Playlist</playlist>
+<file>Filename</file>
+<title>Title</title>
+<genre>Genre</genre>
+<artist>Artist</artist>
+<album>Album</album>
+<disc>Disc</disc>
+<time>Time</time>
+<date>Date</date>
+<comment>Comment</comment>
+<any>Any</any>
+<remaining>Remaining</remaining>
+<loading>Loading....</loading>
+<pl_save>Save playlist</pl_save>
+<pl_append>Append to pl.</pl_append>
+<pl_replace>Replace pl.</pl_replace>
+<pl_delete>Delete</pl_delete>
+<pl_rename>Rename</pl_rename>
+<now_playing>playing now</now_playing>
+<tab_folder>Folders</tab_folder><tab_files>All Files</tab_files>
+<tab_search>Search</tab_search>
+<tab_playlists>Playlists</tab_playlists>
+<tab_tracks>Tracks</tab_tracks>
+<menu_play_current>Play track [P]</menu_play_current>
+<menu_up>Move up... [up]</menu_up>
+<menu_down>Move down... [down]</menu_down>
+<menu_rem_selected>Remove selected... [DEL]</menu_rem_selected>
+<menu_clear_old>Remove old... [O]</menu_clear_old>
+<menu_clear>Clear playlist... [C]</menu_clear>
+<menu_select>Select all... [S]</menu_select>
+<menu_deselect>Deselect all... [D]</menu_deselect>
+<menu_append>Append selected... [SPC]</menu_append>
+<menu_radio>Append radio stream... [R]</menu_radio>
+<menu_savepl>Save playlist... [N]</menu_savepl>
+<menu_fileinfo>Show fileinfo... [I]</menu_fileinfo>
+<error>Error</error>
+<error_notracks>No active tracks in playlist!</error_notracks>
+<error_nofiles>No tracks found!</error_nofiles>
+<error_connect>Could not connect to mpd-deamon.\n Please check for HOST,PORT and PASSWORD in configuration and press F5.</error_connect>
+<error_allowed>Command failed!\n Reason: anonymous users are not allowed to do this.\nPlease LOGIN first.</error_allowed>
+<error_mpd>Command failed!\n Reason: relaXX is not allowed to do this.\nPlease check MPD password and rights.</error_mpd>
+<error_login>Command failed!\n Reason: please LOGIN first.</error_login>
+<error_password>Login failed!\n Reason: PASSWORD or USERNAME incorrect.</error_password>
+<success_login>Login successfull</success_login>
+<success_logout>Logout successfull</success_logout>
+<search_for>Search for</search_for>
+<search_in>Search in</search_in>
+<name>Name</name>
+<username>Username</username>
+<administrator>Administrator</administrator>
+<password>Password</password>
+<config>Config</config>
+<dialog_info>Songinfo and MPD-Statistics</dialog_info>
+<dialog_radio>Add radio stream</dialog_radio>
+<stat_current>Current audio</stat_current>
+<stat_db>Database</stat_db>
+<stat_audio>Audio</stat_audio>
+<stat_bit>Bitrate</stat_bit>
+<stat_songs>Songs</stat_songs>
+<stat_artists>Artists</stat_artists>
+<stat_albums>Albums</stat_albums>
+<stat_playtime>Playtime</stat_playtime>
+<adm_updatedb>update db</adm_updatedb>
+<adm_template>Skin</adm_template>
+<adm_language>Language</adm_language>
+<adm_rights>Anonymous rights</adm_rights>
+<adm_settings>Settings</adm_settings>
+<url>URL</url>
+</language>

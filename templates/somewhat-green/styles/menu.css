@@ -1,0 +1,68 @@
+/* Contextmenu STYLES */
+
+div.ccmenu {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 999;
+    font-size: 0.98em;	
+}
+div.ccmenu a {
+	display: block;
+	text-decoration: none;
+	cursor: pointer;
+	outline: none;
+    font-size: 0.95em;
+}
+div.ccmenu .separator {
+    min-width: 14em;
+   	background-color: black;
+   	height: 1px;
+   	margin: 0;
+   	padding: 0;
+   	border-bottom: 1px solid #5c5c5c;
+   	overflow: hidden;
+}
+* html div.ccmenu .separator { height: 2px; }
+
+div.ccmenu .title {
+	background-color: #2d482a;
+    background-image:  url(../images/bg-tabactive.gif);
+	background-repeat:repeat-x;		
+	font-weight: bold;    
+	padding: 2px 2px 2px 17px;
+    margin:0;
+    border: 1px solid #306c3b;
+    border-right-color: #1c2c1a;
+    border-bottom-color: #1c2c1a;	       	
+  }
+      
+.ccmenu {
+      width: 14em;
+      background-color: #373832;
+      border:1px outset black; 
+      padding: 0;      
+}
+*+html .ccmenu.def { border: 1px outset #fff; }
+
+.ccmenu a {
+   	padding: 2px 5px 2px 28px;
+   	background-image: url("../images/empty.gif");
+   	background-position: 4px center;
+   	background-repeat: no-repeat;
+   	margin: 0;
+   	border-bottom: 1px solid #272822;
+}
+.ccmenu a:hover {
+	background-color: #354158;
+}
+.ccmenu a.disabled {
+   opacity: 0.25;
+   filter: alpha(opacity=25);
+}
+
+.ccmenu a.disabled:hover {
+   opacity: 0.25;
+   filter: alpha(opacity=25);
+}
+

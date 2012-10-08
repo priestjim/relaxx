@@ -1,0 +1,29 @@
+<?xml version='1.0' standalone='yes'?>
+<plugin>
+	<name>audioplayer</name>
+	<description>Plays song locally through flash applet</description>
+	<enabled>1</enabled>
+	<!--Possible contexts are dirtab, playlist, tracklist, player  -->
+	<contexts>
+		<player>0</player>
+		<tracklist>1</tracklist>
+		<playlist>1</playlist>
+		<dirtab>0</tracklist>
+	</contexts>		
+	<keycode>b</keycode>
+	<icon>song-info</icon>
+	<parameters>
+	<!--Possible parameters are artist, title, genre, album and filename  -->
+		<parameter>filename</parameter>
+		<parameter>title</parameter>
+	</parameters>
+	<require><!--Read and/or write access to collection required to use plugin? write still not supported!-->
+		<read_music>1</read_music>
+		<write_music>0</write_music>
+	</require>
+	<width>320</width>
+	<height>200</height>
+	<close_button>0</close_button>
+	<close_icon>1</close_icon>
+</plugin>
+

@@ -1,0 +1,90 @@
+<?xml version='1.0' standalone='yes'?>
+<language>
+<play>[2] 播放</play>
+<stop>停止</stop>
+<next>[3] 下一首</next>
+<previous>[1] 上一首</previous>
+<pause>[2] 暂停</pause>
+<repeat>重复</repeat>
+<shuffle>随机</shuffle>
+<close>关闭</close>
+<cancel>取消</cancel>
+<save>保存</save>
+<add>添加</add>
+<remove>移除</remove>
+<load>载入</load>
+<login>登录</login>
+<logout>退出</logout>
+<pos>顺序.</pos>
+<volume>[Q-] 音量 [W+]</volume>
+<xfade>xfade</xfade>
+<output>音乐输出设备</output>
+<playlist>当前播放列表</playlist>
+<file>文件名</file>
+<title>歌名</title>
+<genre>类别</genre>
+<artist>歌手</artist>
+<album>专辑</album>
+<disc>Disc</disc>
+<time>歌曲长度</time>
+<date>日期</date>
+<comment>评论</comment>
+<any>所有</any>
+<remaining>剩余时间</remaining>
+<loading>载入....</loading>
+<pl_save>保存播放列表</pl_save>
+<pl_append>追加到当前播放列表中.</pl_append>
+<pl_replace>载入所选播放列表.</pl_replace>
+<pl_delete>删除</pl_delete>
+<pl_rename>重命名</pl_rename>
+<now_playing>当前正在播放的歌名</now_playing>
+<tab_folder>目录</tab_folder><tab_files>所有文件</tab_files>
+<tab_search>搜索</tab_search>
+<tab_playlists>已保存的播放列表</tab_playlists>
+<tab_tracks>音轨列表</tab_tracks>
+<menu_play_current>播放当前所选歌曲 [P]</menu_play_current>
+<menu_up>播放顺序前移一位... [up]</menu_up>
+<menu_down>播放顺序后移一位... [down]</menu_down>
+<menu_rem_selected>播放列表中移除所选歌曲... [DEL]</menu_rem_selected>
+<menu_clear_old>移除列表中已放过歌曲... [O]</menu_clear_old>
+<menu_clear>清空列表内所有歌曲... [C]</menu_clear>
+<menu_select>全选... [S]</menu_select>
+<menu_deselect>取消全选... [D]</menu_deselect>
+<menu_append>播放列表中添加所选歌曲... [SPC]</menu_append>
+<menu_radio>添加电台音频流... [R]</menu_radio>
+<menu_savepl>保存播放列表... [N]</menu_savepl>
+<menu_fileinfo>显示文件信息... [I]</menu_fileinfo>
+<error>出错</error>
+<error_notracks>播放列表中没有音乐文件!</error_notracks>
+<error_nofiles>未找到音乐文件!</error_nofiles>
+<error_connect>无法连接MPD服务程序.\n 请检查配置文件中的主机名,端号口和密码等信息, 然后按F5键重试.</error_connect>
+<error_allowed>操作失败!\n 原因: 禁止匿名用户执行本操作.\n请先登录.</error_allowed>
+<error_mpd>操作失败!\n 原因: 禁止relaXX执行本操作.\n请检查MPD的密码和权限.</error_mpd>
+<error_login>操作失败!\n 原因: 请先登录.</error_login>
+<error_password>登录失败!\n 原因: 用户名或密码错误.</error_password>
+<success_login>登录成功</success_login>
+<success_logout>退出成功</success_logout>
+<search_for>搜索歌曲关键字</search_for>
+<search_in>在以下范围内搜索</search_in>
+<name>播放列表名</name>
+<username>用户名</username>
+<administrator>管理员</administrator>
+<password>密码</password>
+<config>配置</config>
+<dialog_info>歌曲信息和MPD相关数据</dialog_info>
+<dialog_radio>添加电台音频流</dialog_radio>
+<stat_current>Current audio</stat_current>
+<stat_db>数据库</stat_db>
+<stat_audio>Audio</stat_audio>
+<stat_bit>Bitrate</stat_bit>
+<stat_songs>Songs</stat_songs>
+<stat_artists>歌手</stat_artists>
+<stat_albums>专辑</stat_albums>
+<stat_playtime>Playtime</stat_playtime>
+<adm_updatedb>更新数据库</adm_updatedb>
+<adm_template>界面外观</adm_template>
+<adm_language>语言</adm_language>
+<adm_rights>匿名用户权限</adm_rights>
+<adm_settings>设置</adm_settings>
+<url>URL</url>
+</language>

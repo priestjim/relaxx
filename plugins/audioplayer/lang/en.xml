@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<audioplayer>
+	<menu>Play in browser... [B]</menu>
+	<error_open>Can not open file. Make Shure you have read access to the music.</error_open>
+	<error_noflash>Flash 8 or greater needed.</error_noflash>
+	<error_nofile>No track selected to play.</error_nofile>
+	<download>Download file to local HD.</download>
+</audioplayer>	

@@ -1,0 +1,7 @@
+Relaxx needs direct access to your music files.
+Otherwise most of the plugins will not work.
+the directory "music" must be a symbolic link
+to your mpd music collection.
+
+Usually /var/lib/mpd/music
+

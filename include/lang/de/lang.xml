@@ -1,0 +1,91 @@
+<?xml version='1.0' standalone='yes'?>
+<language>
+<play>[2] abspielen</play>
+<stop>stoppen</stop>
+<next>[3] nächster</next>
+<previous>[1] vorheriger</previous>
+<pause>[2] pause</pause>
+<repeat>wiederh.</repeat>
+<shuffle>zufall</shuffle>
+<close>Schließen</close>
+<cancel>Abbrechen</cancel>
+<save>Speichern</save>
+<add>Hinzufügen</add>
+<remove>Löschen</remove>
+<load>Laden</load>
+<login>Anmelden</login>
+<logout>Abmelden</logout>
+<pos>Pos.</pos>
+<volume>[Q-] Lautstärke [W+]</volume>
+<xfade>xfade</xfade>
+<output>Ausgang</output>
+<playlist>Playlist</playlist>
+<file>Dateiname</file>
+<title>Titel</title>
+<genre>Genre</genre>
+<artist>Künstler</artist>
+<album>Album</album>
+<disc>Disc</disc>
+<time>Zeit</time>
+<date>Datum</date>
+<comment>Kommentar</comment>
+<any>Global</any>
+<remaining>Verbleibend</remaining>
+<loading>Lade....</loading>
+<pl_save>Speicher pl.</pl_save>
+<pl_append>Füge an pl.</pl_append>
+<pl_replace>Ersetze pl.</pl_replace>
+<pl_delete>Löschen</pl_delete>
+<pl_rename>Umbenennen</pl_rename>
+<now_playing>Spiele jetzt</now_playing>
+<tab_folder>Übersicht</tab_folder>
+<tab_files>Alle Dateien</tab_files>
+<tab_search>Suche</tab_search>
+<tab_playlists>Playlists</tab_playlists>
+<tab_tracks>Songs</tab_tracks>
+<menu_play_current>Spiele Song... [P]</menu_play_current>
+<menu_up>Nach Oben... [hoch]</menu_up>
+<menu_down>Nach Unten... [runter]</menu_down>
+<menu_rem_selected>Lösche markierte... [DEL]</menu_rem_selected>
+<menu_clear_old>Lösche alte... [O]</menu_clear_old>
+<menu_clear>Lösche alles... [C]</menu_clear>
+<menu_select>Markiere alles... [S]</menu_select>
+<menu_deselect>Unmarkiere alles... [D]</menu_deselect>
+<menu_append>Füge markierte an... [SPC]</menu_append>
+<menu_radio>Radio Stream... [R]</menu_radio>
+<menu_savepl>Speichere Liste... [N]</menu_savepl>
+<menu_fileinfo>Zeige Dateiinfo... [I]</menu_fileinfo>
+<error>Fehler</error>
+<error_notracks>Keine aktiven Songs in Playliste!</error_notracks>
+<error_nofiles>Keine Songs gefunden!</error_nofiles>
+<error_connect>Kann mit mpd-Dienst nicht verbinden!\n Bitte HOST,PORT und PASSWORT in den Einstellungen überprüfen.</error_connect>
+<error_allowed>Kommando fehlgeschlagen!\n Grund: Der Befehl ist anonymen Benutzern nicht gestattet.\nBitte erst anmelden.</error_allowed>
+<error_mpd>Kommando fehlgeschlagen!\n Grund: RelaXX hat unzureichende Rechte.\nBitte MPD-Passwort und Rechte überprüfen.</error_mpd>
+<error_login>Kommando fehlgeschlagen!\n Grund: Bitte erst anmelden.</error_login>
+<error_password>Anmeldung fehlgeschlagen!\n Grund: PASSWORT oder BENUTZERNAME waren falsch.</error_password>
+<success_login>Anmeldung erfolgreich</success_login>
+<success_logout>Abmeldung erfolgreich</success_logout>
+<search_for>Suche nach</search_for>
+<search_in>Suche in</search_in>
+<name>Name</name>
+<username>Benutzername</username>
+<administrator>Administrator</administrator>
+<password>Passwort</password>
+<config>Konfig.</config>
+<dialog_info>Songinfo und MPD-Statistik</dialog_info>
+<dialog_radio>Radio Stream hinzufügen (URL)</dialog_radio>
+<stat_current>Aktueller Titel</stat_current>
+<stat_db>Datenbank</stat_db>
+<stat_audio>Audio</stat_audio>
+<stat_bit>Bitrate</stat_bit>
+<stat_songs>Titel</stat_songs>
+<stat_artists>Künstler</stat_artists>
+<stat_albums>Albums</stat_albums>
+<stat_playtime>Spielzeit</stat_playtime>
+<adm_updatedb>DB-Update</adm_updatedb>
+<adm_template>Aussehen</adm_template>
+<adm_language>Sprache</adm_language>
+<adm_rights>Rechte unangemeldet</adm_rights>
+<adm_settings>Einstellungen</adm_settings>
+<url>URL</url>
+</language>
