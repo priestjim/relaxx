@@ -102,3 +102,8 @@ function redraw() {
   }	
 }
 
+// Update
+function updateDatabase(){
+	url="include/controller-mpdadmin.php?action=updateDatabase";
+	new Ajax(url,{method:"get"}).request();
+}

@@ -12,14 +12,14 @@
 <script src="js/functions.js"></script>
 <script src="./templates/<?php echo $config->template; ?>/template.js"></script>
 <!-- include styles /-->
-<link href="./templates/<?php echo $config->template; ?>/template.css" rel="stylesheet" type="text/css" />
-<link href="./templates/<?php echo $config->template; ?>/styles/mootabs.css" rel="stylesheet" type="text/css" />
-<link href="./templates/<?php echo $config->template; ?>/styles/treeview.css" rel="stylesheet" type="text/css" />
-<link href="./templates/<?php echo $config->template; ?>/styles/menu.css" rel="stylesheet" type="text/css" />
-<link href="./templates/<?php echo $config->template; ?>/styles/table.css" rel="stylesheet" type="text/css" />
+<link href="templates/<?php echo $config->template; ?>/template.css" rel="stylesheet" type="text/css" />
+<link href="templates/<?php echo $config->template; ?>/styles/mootabs.css" rel="stylesheet" type="text/css" />
+<link href="templates/<?php echo $config->template; ?>/styles/treeview.css" rel="stylesheet" type="text/css" />
+<link href="templates/<?php echo $config->template; ?>/styles/menu.css" rel="stylesheet" type="text/css" />
+<link href="templates/<?php echo $config->template; ?>/styles/table.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<div id="footer"><span><a href='http://relaxx.dirk-hoeschen.de'>relaXX-player</a> <?php echo $config->version; ?> &copy; <?php echo date(Y); ?> by Dirk Hoeschen. Relaeased under GPL v3.</span></div>
+<div id="footer"><span><a href='http://relaxx.dirk-hoeschen.de'>relaXX-player</a> <?php echo $config->version; ?> &copy; <?php echo date('Y'); ?> by Dirk Hoeschen. Released under GPL v3.</span></div>
 <!-- Container Header with 4 collumns.... menu, player,playersettings, trackinfo and logo /-->
 <div id="cont_top" class="cont_top">
   <div class="pannel"><?php $player->xxMenu('vert'); ?></div>
@@ -59,6 +59,7 @@
        </div>  
   </div>
   <div class="pannel" style="width:5px;" ></div>
+  <div style="float:left;display:inline;margin:8px 5px 0;"><button onclick="updateDatabase(); return false;" style='background-image: url(./images/warning.gif);padding: 12px 5px 12px 20px'><?php echo $lng->adm_updatedb; ?></button></div>
   <div style="float:right;margin-top:3px;margin-right:5px;cursor:pointer;" onclick='aboutRelaxx();'><img src="./templates/<?php echo $config->template; ?>/images/relaxx-logo.gif"></div>
 </div>
 

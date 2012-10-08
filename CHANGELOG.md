@@ -1,11 +1,12 @@
 /* --------------------------------------------------------------------
 RelaXXPlayer - the easy listening MPD - Web Client
 
-Version: 0.70
-home: http://relaxx.dirk-hoeschen.de
-updates: http://sourceforge.net/projects/relaxx
+Version: 0.71
+home: https://github.com/priestjim/relaxx
+original home: http://relaxx.dirk-hoeschen.de
 
-Copyright (C) 2010  Dirk Hoeschen
+Copyright (C) 2010 Dirk Hoeschen
+Further modifications by Panagiotis Papadomitsos <pj@ezgr.net>
 --------------------------------------------------------------------*/
 
 /* v0.5a - Released 21/02/2008 */
@@ -143,3 +144,9 @@ So expect bugs and missing features.
 + fixed table in firefox 3.6+
 + added chinese langauge file. thanks to edward who
 
+/* v0.71 - Release 08/10/2012 */
+================================
++ removed authentication, please implement it using HTTP methods
++ added support for mms,asx and unknown streams
++ ajaxified update DB
++ cosmetic fixes

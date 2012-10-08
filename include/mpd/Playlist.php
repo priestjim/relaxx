@@ -39,6 +39,7 @@ class Net_MPD_Playlist extends Net_MPD_Common
     public function getPlaylists($dir = '')
     {
 	$out = $this->runCommand('lsinfo', $dir);
+	sort($out['playlist'], SORT_STRING);
 	return $out['playlist'];
     }
 

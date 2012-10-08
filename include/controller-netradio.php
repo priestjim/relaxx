@@ -6,31 +6,51 @@
 /  ---------------------------------------------- */
 
  session_start();
+ $_SESSION['relaxx'] = true;
 
  ini_set('default_mimetype','text/javascript');
- header("Content-type: text/javascript;  charset=utf-8");
+ header("Content-type: text/javascript; charset=utf-8");
 
  if (isset($_SESSION['relaxx'])) {
    $playlist = strtolower(strip_tags($_GET['playlist']));
    $url = "";
    // no http entered
-   if (substr($playlist,0,4)!='http') {
+   if ((substr($playlist,0,4)!='http') && (substr($playlist,0,3)!='mms')) {
    	  $playlist = "http://".$playlist;
    }
-   // Get Playlist from URL - playlit format if no port is given
-   if (strpos($playlist,":",5) === false) {
+   // Get Playlist from URL - playlist format if no port is given
+   if (substr($playlist,0,3) == 'mms') {
+         $url = $playlist;
+   } elseif (strpos($playlist,":",5) === false) {
    	 $ext = substr(strrchr($playlist, '.'), 1); 
    	 switch ($ext) {
    	 	case "pls":
  	 	  	 $url = getPlaylist($playlist,"file");
 	 	  	 $url = substr($url, (strpos($url,"=")+1)); 
- 	  	 break;
+ 	  	break;
    	 	case "m3u":
  	 	  	 $url = getPlaylist($playlist,"http:");
 	 	  	 $url = $url; 
- 	  	 break;
+	  	break;
    	 	case "asx":
+			libxml_use_internal_errors();
+			$xmlFile = file_get_contents($playlist);
+			$xml = mb_strtolower($xmlFile,'UTF-8');
+                        $xml = simplexml_load_string($xml);
+                        if ($xml instanceof SimpleXMLElement) {
+				foreach($xml->entry[0]->ref as $ref) {
+					if (strpos($ref['href'],'mms://') !== false) {
+						$url = (string)$ref['href'];
+						break;
+					}
+				}
+			}
+		break;
    	 	case "aspx":
+			$aspxFile = file_get_contents($playlist);
+			$aspx = @parse_ini_string($aspxFile);
+			$url = isset($aspx['File1']) ? $aspx['File1'] : "";
+		break;
    	 	case "wax":
 	 	  	 $url = getPlaylist($playlist,"<ref");
 	 	  	 $url = eregi_replace( "[ >\"']","",substr($url,strpos($url,"=")+1,-2)); 
@@ -40,17 +60,18 @@
    	 		if ($xml->trackList) $url = $xml->trackList->track[0]->location;   	 		 
    	 	break;  	 	
 	 	default:  // try to match first url in file if content is unknown
-			$lines = file ($playlist);
-     			if ($lines) {
-	 	 	    foreach ($lines as $line) {
- 	  	 		$url = getPlaylist($playlist);
-				$fu = preg_match('~http:(.+?)[ "\'>]~is',trim($line)." ", $matches);
-				if ($fu) { $url = substr($matches[0],0,-1); break; }
-				}
-			}
+			$url = $playlist;
+//			$lines = file ($playlist);
+//     			if ($lines) {
+//	 	 	    foreach ($lines as $line) {
+// 	  	 		$url = getPlaylist($playlist);
+//				$fu = preg_match('~http:(.+?)[ "\'>]~is',trim($line)." ", $matches);
+//				if ($fu) { $url = substr($matches[0],0,-1); break; }
+//				}
+//			}
   	 	break;
   	 }   	   	 
-   } else { // assume it is a raw url to a steam and return   	  
+   } else { // assume it is a raw url to a steam and return
       $url = $playlist;
    }
    if ($url!="") {
