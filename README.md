@@ -6,7 +6,7 @@ RelaXXPlayer - the easy listening MPD - Web Client
 
 Copyright (C) 2010 Dirk Hoeschen
 
-Further modifications by Panagiotis Papadomitsos <pj@ezgr.net>
+Further modifications by Panagiotis Papadomitsos
 
 About MPD and RelaXXPlayer
 ==========================

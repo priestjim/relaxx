@@ -8,7 +8,7 @@ This file is used to list changes made in each version of RelaXX
 
 Copyright (C) 2010 Dirk Hoeschen
 
-Further modifications by Panagiotis Papadomitsos <pj@ezgr.net>
+Further modifications by Panagiotis Papadomitsos
 
 ## v0.5a - Released 21/02/2008
 
