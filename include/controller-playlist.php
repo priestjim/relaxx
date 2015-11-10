@@ -52,16 +52,16 @@
     		($config->checkRights("add_songs") && $MPD->isCommand('add')) ? $MPD->addSong($_GET['value']) : $status = "error";
     		break;			
 		case 'swapSong':
-			$pos = split(":",$_GET['value']);
+			$pos = explode(":",$_GET['value']);
 			($config->checkRights("controll_playlist") && $MPD->isCommand('swap'))  ? $MPD->swapSong($pos[0],$pos[1]) : $status = "error";
     		break;			
 		case 'moveSong':
-			$pos = split(":",$_GET['value']);
+			$pos = explode(":",$_GET['value']);
 			($config->checkRights("controll_playlist") && $MPD->isCommand('move')) ? $MPD->moveSong($pos[0],$pos[1]) : $status = "error";
     		break;			
     	case 'deleteSong':
     		if (($config->checkRights("controll_playlist") && $MPD->isCommand('delete')) ) {
-    		  $ids = split(":",$_GET['value']);
+    		  $ids = explode(":",$_GET['value']);
     		  foreach ($ids as $id) { if ($id!="") $MPD->deleteSongId(intval($id));  }
 	        } else {
 			  $status = "error";

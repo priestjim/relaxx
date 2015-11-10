@@ -14,7 +14,7 @@
  header("Content-type: text/javascript;  charset=utf-8"); 
  
  if (isset($_SESSION['relaxx_hostdata'])) {
-   $config = split(";",$_SESSION['relaxx_hostdata'],3);
+   $config = explode(";",$_SESSION['relaxx_hostdata'],3);
    if ($config[2]=="") { $config[2]= null; }
    // include MPD-lib and connect
    require_once 'lib-mpd.php';
